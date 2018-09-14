@@ -1,0 +1,18 @@
+plugins {
+    id 'java'
+}
+
+group 'com.github.brscherer.core_engineering.homework_9'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    compile 'org.apache.httpcomponents:httpclient:4.5.2'
+    compile 'com.google.code.gson:gson:2.7'
+}
