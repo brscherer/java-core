@@ -1,0 +1,290 @@
+{
+  "bookList": [
+    {
+      "id": 1,
+      "title": "clean code",
+      "author": "uncle bob",
+      "rented": true
+    },
+    {
+      "id": 2,
+      "title": "tdd",
+      "author": "john doe",
+      "rented": true
+    },
+    {
+      "id": 3,
+      "title": "ddd",
+      "author": "jane doe",
+      "rented": true
+    },
+    {
+      "id": 4,
+      "title": "how to rush",
+      "author": "leroy jenkis",
+      "rented": false
+    }
+  ],
+  "userList": [
+    {
+      "id": 1,
+      "name": "tiburcio",
+      "rentedBooks": [
+        {
+          "id": 2,
+          "title": "tdd",
+          "author": "john doe",
+          "rented": true
+        },
+        {
+          "id": 3,
+          "title": "ddd",
+          "author": "jane doe",
+          "rented": true
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "fulano",
+      "rentedBooks": [
+        {
+          "id": 1,
+          "title": "clean code",
+          "author": "uncle bob",
+          "rented": true
+        }
+      ]
+    }
+  ],
+  "rentList": [
+    {
+      "user": {
+        "id": 1,
+        "name": "tiburcio",
+        "rentedBooks": []
+      },
+      "book": {
+        "id": 1,
+        "title": "clean code",
+        "author": "uncle bob",
+        "rented": false
+      },
+      "rentDate": {
+        "year": 2018,
+        "month": 8,
+        "day": 20
+      },
+      "returnDate": {
+        "year": 2018,
+        "month": 8,
+        "day": 28
+      },
+      "penaltyFee": 5.0
+    },
+    {
+      "user": {
+        "id": 1,
+        "name": "tiburcio",
+        "rentedBooks": []
+      },
+      "book": {
+        "id": 3,
+        "title": "ddd",
+        "author": "jane doe",
+        "rented": false
+      },
+      "rentDate": {
+        "year": 2018,
+        "month": 8,
+        "day": 19
+      },
+      "returnDate": {
+        "year": 2018,
+        "month": 8,
+        "day": 28
+      },
+      "penaltyFee": 10.0
+    },
+    {
+      "user": {
+        "id": 2,
+        "name": "fulano",
+        "rentedBooks": []
+      },
+      "book": {
+        "id": 3,
+        "title": "ddd",
+        "author": "jane doe",
+        "rented": false
+      },
+      "rentDate": {
+        "year": 2018,
+        "month": 8,
+        "day": 11
+      },
+      "returnDate": {
+        "year": 2018,
+        "month": 8,
+        "day": 28
+      },
+      "penaltyFee": 50.0
+    },
+    {
+      "user": {
+        "id": 2,
+        "name": "fulano",
+        "rentedBooks": []
+      },
+      "book": {
+        "id": 2,
+        "title": "tdd",
+        "author": "john doe",
+        "rented": false
+      },
+      "rentDate": {
+        "year": 2018,
+        "month": 8,
+        "day": 28
+      },
+      "returnDate": {
+        "year": 2018,
+        "month": 8,
+        "day": 28
+      },
+      "penaltyFee": 0.0
+    },
+    {
+      "user": {
+        "id": 2,
+        "name": "fulano",
+        "rentedBooks": []
+      },
+      "book": {
+        "id": 4,
+        "title": "how to rush",
+        "author": "leroy jenkis",
+        "rented": false
+      },
+      "rentDate": {
+        "year": 2018,
+        "month": 8,
+        "day": 28
+      },
+      "returnDate": {
+        "year": 2018,
+        "month": 8,
+        "day": 28
+      },
+      "penaltyFee": 0.0
+    },
+    {
+      "user": {
+        "id": 1,
+        "name": "tiburcio",
+        "rentedBooks": []
+      },
+      "book": {
+        "id": 4,
+        "title": "how to rush",
+        "author": "leroy jenkis",
+        "rented": false
+      },
+      "rentDate": {
+        "year": 2018,
+        "month": 8,
+        "day": 29
+      },
+      "returnDate": {
+        "year": 2018,
+        "month": 8,
+        "day": 29
+      },
+      "penaltyFee": 0.0
+    },
+    {
+      "user": {
+        "id": 1,
+        "name": "tiburcio",
+        "rentedBooks": [
+          {
+            "id": 2,
+            "title": "tdd",
+            "author": "john doe",
+            "rented": true
+          }
+        ]
+      },
+      "book": {
+        "id": 2,
+        "title": "tdd",
+        "author": "john doe",
+        "rented": true
+      },
+      "rentDate": {
+        "year": 2018,
+        "month": 7,
+        "day": 29
+      },
+      "penaltyFee": 0.0
+    },
+    {
+      "user": {
+        "id": 1,
+        "name": "tiburcio",
+        "rentedBooks": [
+          {
+            "id": 2,
+            "title": "tdd",
+            "author": "john doe",
+            "rented": true
+          },
+          {
+            "id": 3,
+            "title": "ddd",
+            "author": "jane doe",
+            "rented": true
+          }
+        ]
+      },
+      "book": {
+        "id": 3,
+        "title": "ddd",
+        "author": "jane doe",
+        "rented": true
+      },
+      "rentDate": {
+        "year": 2018,
+        "month": 8,
+        "day": 19
+      },
+      "penaltyFee": 0.0
+    },
+    {
+      "user": {
+        "id": 2,
+        "name": "fulano",
+        "rentedBooks": [
+          {
+            "id": 1,
+            "title": "clean code",
+            "author": "uncle bob",
+            "rented": true
+          }
+        ]
+      },
+      "book": {
+        "id": 1,
+        "title": "clean code",
+        "author": "uncle bob",
+        "rented": true
+      },
+      "rentDate": {
+        "year": 2018,
+        "month": 8,
+        "day": 20
+      },
+      "penaltyFee": 0.0
+    }
+  ]
+}
